@@ -1,0 +1,44 @@
+# Get rid of everything
+*
+
+# Pakku
+!.pakku/
+!.pakku/**
+!pakku-lock.json
+!pakku.json
+
+# Other
+!assets/
+!assets/**
+
+# Config folders
+
+# =========== To include on the overrides of pakku ===========
+# Config files
+
+# Defaultconfigs
+!.defaultconfigs/
+!.defaultconfigs/**
+!.config/
+!.config/**
+
+# Kubejs
+!.kubejs/
+!.kubejs/**
+
+# TACZ
+!.tacz/
+!.tacz/**
+
+# =========== End of the overrides of pakku ===========
+
+# Github
+!.github/
+!.github/**
+!LICENSE
+!.gitignore
+!.gitattributes
+!CHANGELOG.md
+
+
+
