@@ -17,18 +17,18 @@
 # Config files
 
 # Defaultconfigs
-!.defaultconfigs/
-!.defaultconfigs/**
-!.config/
-!.config/**
+!defaultconfigs/
+!defaultconfigs/**
+!config/
+!config/**
 
 # Kubejs
-!.kubejs/
-!.kubejs/**
+!kubejs/
+!kubejs/**
 
 # TACZ
-!.tacz/
-!.tacz/**
+!tacz/
+!tacz/**
 
 # =========== End of the overrides of pakku ===========
 
