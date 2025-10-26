@@ -1343,6 +1343,42 @@
             ]
         },
         {
+            "pakku_id": "l3Ev58mv8LnYwHCh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cc-tweaked"
+            },
+            "name": {
+                "curseforge": "CC: Tweaked"
+            },
+            "id": {
+                "curseforge": "282001"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cc-tweaked-1.20.1-forge-1.113.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5714/507/cc-tweaked-1.20.1-forge-1.113.1.jar",
+                    "id": "5714507",
+                    "parent_id": "282001",
+                    "hashes": {
+                        "sha1": "ca74a2ad65f149e7465e849b479abec863a82bf1",
+                        "md5": "92b7b114f5ee6067b4f0eff1636817f2"
+                    },
+                    "required_dependencies": [],
+                    "size": 3063695,
+                    "date_published": "2024-09-11T19:12:12.627Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "aqNM1S8h4AfMFPuA",
             "pakku_links": [
                 "hVuNByb7lFMRJR5g"
