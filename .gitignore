@@ -30,6 +30,9 @@
 !tacz/
 !tacz/**
 
+# Logging
+!log4j2.xml
+
 # =========== End of the overrides of pakku ===========
 
 # Github

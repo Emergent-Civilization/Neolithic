@@ -2,6 +2,9 @@
     "name": "Neolithic",
     "version": "0.0.1",
     "overrides": [
-        "config"
+        "config",
+        "defaultconfigs",
+        "kubejs",
+        "tacz"
     ]
 }

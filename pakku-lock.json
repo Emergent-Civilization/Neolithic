@@ -439,6 +439,9 @@
         },
         {
             "pakku_id": "coi3NnVR68gdih4i",
+            "pakku_links": [
+                "l3Ev58mv8LnYwHCh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "advanced-peripherals"
@@ -637,7 +640,6 @@
         {
             "pakku_id": "FubRzuPT1XWwU18B",
             "pakku_links": [
-                "LJrGAxXEt3QRM8iN",
                 "BsHORBkWZ0iMQlGx",
                 "NlLh4dyTYlpbC6Q8"
             ],
@@ -719,43 +721,6 @@
                     ],
                     "size": 5118951,
                     "date_published": "2025-07-26T19:48:35.320Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "LJrGAxXEt3QRM8iN",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "architectury-api"
-            },
-            "name": {
-                "curseforge": "Architectury API"
-            },
-            "id": {
-                "curseforge": "419699"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "architectury-9.2.14-forge.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
-                    "id": "5137938",
-                    "parent_id": "419699",
-                    "hashes": {
-                        "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
-                        "md5": "76b40d407b6bf0257dd1dab6d3d395d5"
-                    },
-                    "required_dependencies": [],
-                    "size": 580602,
-                    "date_published": "2024-02-26T13:18:59.227Z"
                 }
             ]
         },
@@ -5903,6 +5868,9 @@
         },
         {
             "pakku_id": "dMQp7esrCPj6REXt",
+            "pakku_links": [
+                "l3Ev58mv8LnYwHCh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "more-red-x-cc-tweaked-compat"
