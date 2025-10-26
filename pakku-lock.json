@@ -439,6 +439,9 @@
         },
         {
             "pakku_id": "coi3NnVR68gdih4i",
+            "pakku_links": [
+                "l3Ev58mv8LnYwHCh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "advanced-peripherals"
@@ -637,7 +640,6 @@
         {
             "pakku_id": "FubRzuPT1XWwU18B",
             "pakku_links": [
-                "LJrGAxXEt3QRM8iN",
                 "BsHORBkWZ0iMQlGx",
                 "NlLh4dyTYlpbC6Q8"
             ],
@@ -5866,6 +5868,9 @@
         },
         {
             "pakku_id": "dMQp7esrCPj6REXt",
+            "pakku_links": [
+                "l3Ev58mv8LnYwHCh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "more-red-x-cc-tweaked-compat"
