@@ -2147,6 +2147,67 @@
             ]
         },
         {
+            "pakku_id": "PIksUt1kgORNNFon",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "canary",
+                "modrinth": "canary"
+            },
+            "name": {
+                "curseforge": "Canary",
+                "modrinth": "Canary"
+            },
+            "id": {
+                "curseforge": "665658",
+                "modrinth": "qa2H4BS9"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "canary-mc1.20.1-0.3.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5089/991/canary-mc1.20.1-0.3.3.jar",
+                    "id": "5089991",
+                    "parent_id": "665658",
+                    "hashes": {
+                        "sha1": "898abd9e337ef1c677ce93f5589497a09c7e9850",
+                        "md5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1"
+                    },
+                    "required_dependencies": [],
+                    "size": 594191,
+                    "date_published": "2024-02-08T15:51:28.977Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "canary-mc1.20.1-0.3.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-0.3.3.jar",
+                    "id": "lauzXB0n",
+                    "parent_id": "qa2H4BS9",
+                    "hashes": {
+                        "sha512": "38f0bec7967f9d354e46dacdbe7d284ef823270dc737a7388adde157c45a025e53d77e04a00a582900666b85402c461bee4b80345fc7f03edb5c2b96708442bd",
+                        "sha1": "898abd9e337ef1c677ce93f5589497a09c7e9850"
+                    },
+                    "required_dependencies": [],
+                    "size": 594191,
+                    "date_published": "2024-02-08T15:53:14.088443Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "A31UAepqnKniFZnm",
             "pakku_links": [
                 "fR2my61zK1ySP67C"
@@ -4748,6 +4809,69 @@
                     ],
                     "size": 232711,
                     "date_published": "2025-10-21T12:56:28.140Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "eftq3b8K8QNsbkDE",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "dimthreads",
+                "modrinth": "dimthreads"
+            },
+            "name": {
+                "curseforge": "Dimensional Threading Reforked",
+                "modrinth": "Dimensional Threading Reforked"
+            },
+            "id": {
+                "curseforge": "955545",
+                "modrinth": "V92cR3aK"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dimthread-FORGE-mc1.20.1-v1.2.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5937/939/dimthread-FORGE-mc1.20.1-v1.2.1.jar",
+                    "id": "5937939",
+                    "parent_id": "955545",
+                    "hashes": {
+                        "sha1": "89a0d375b7aa99a7c8fd28decc39f4d36b9127c9",
+                        "md5": "50c9c06cf123b01718a32ca8bf939c8a"
+                    },
+                    "required_dependencies": [],
+                    "size": 444874,
+                    "date_published": "2024-11-26T02:39:20.717Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "dimthread-FORGE-mc1.20.1-v1.2.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/V92cR3aK/versions/i3nGtwqY/dimthread-FORGE-mc1.20.1-v1.2.1.jar",
+                    "id": "i3nGtwqY",
+                    "parent_id": "V92cR3aK",
+                    "hashes": {
+                        "sha512": "e09ac584cfc2062eb4204c0a7f0f214035c8f3ebdf881e34b9626e90420ebea1fae9890c97c6a0df16f8d0943d6e1f74f3d9eff742c4eeaa63843a627a361c39",
+                        "sha1": "89a0d375b7aa99a7c8fd28decc39f4d36b9127c9"
+                    },
+                    "required_dependencies": [],
+                    "size": 444874,
+                    "date_published": "2024-11-26T02:39:24.757492Z"
                 }
             ]
         },
@@ -11474,6 +11598,68 @@
                     "required_dependencies": [],
                     "size": 77732,
                     "date_published": "2024-04-23T06:56:56.381361Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8vlPDabOqow1M4Mk",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "servercore",
+                "modrinth": "servercore"
+            },
+            "name": {
+                "curseforge": "ServerCore",
+                "modrinth": "ServerCore"
+            },
+            "id": {
+                "curseforge": "550579",
+                "modrinth": "4WWQxlQP"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "servercore-forge-1.5.2+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5929/264/servercore-forge-1.5.2+1.20.1.jar",
+                    "id": "5929264",
+                    "parent_id": "550579",
+                    "hashes": {
+                        "sha1": "75c6418edc76da55ec89f417e8c43c9d1873fceb",
+                        "md5": "7ba2ff373f4f1a44a01513c49a2e8b65"
+                    },
+                    "required_dependencies": [],
+                    "size": 1508496,
+                    "date_published": "2024-11-22T21:48:02.250Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "servercore-forge-1.5.2+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/4WWQxlQP/versions/rx1c7m6q/servercore-forge-1.5.2+1.20.1.jar",
+                    "id": "rx1c7m6q",
+                    "parent_id": "4WWQxlQP",
+                    "hashes": {
+                        "sha512": "650f54dcf6d44e26cbc180ca5779857574692f02ff2a55146ed085db1665dde7fb578c75d655e3de064ed56599bc6d38dd547f5f123381c0a54867b98f805b0c",
+                        "sha1": "75c6418edc76da55ec89f417e8c43c9d1873fceb"
+                    },
+                    "required_dependencies": [],
+                    "size": 1508496,
+                    "date_published": "2024-11-22T21:48:03.604148Z"
                 }
             ]
         },
