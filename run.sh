@@ -16,7 +16,7 @@ if [ $updateConfig -eq 1 ]; then
 fi
 
 if [ "$updateConfig" != "null" ]; then
-  branchData=$(curl -Ls https://api.github.com/repos/Emergent-Civilization/Neolithic/branches/$updateConfig -H "Authorization: token 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")
+  branchData=$(curl -Ls https://api.github.com/repos/Emergent-Civilization/Neolithic/branches/$updateConfig)
 
   branchExistsMsg=$(echo $branchData | jq -r .message)
   if [ "$branchExistsMsg" == "Branch not found" ]; then
@@ -30,12 +30,12 @@ if [ "$updateConfig" != "null" ]; then
       currentHash=""
     fi
     echo "Current Hash : $currentHash"
-    newHash=$(curl -Ls https://api.github.com/repos/Emergent-Civilization/Neolithic/branches/$updateConfig -H "Authorization: token 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" | jq -r .commit.sha)
+    newHash=$(curl -Ls https://api.github.com/repos/Emergent-Civilization/Neolithic/branches/$updateConfig | jq -r .commit.sha)
     echo "New Hash     : $newHash"
     if [ "$currentHash" != "$newHash" ]; then
       echo "Hashes different, downloading most recent commit on branch $updateConfig"
       rm -rf Emergent-Civilization-default-server-config-$newHash default-config.zip
-      curl -L -H "Authorization: token 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" -o default-config.zip https://api.github.com/repos/Emergent-Civilization/default-server-config/zipball/$updateConfig && \
+      curl -L -o default-config.zip https://api.github.com/repos/Emergent-Civilization/default-server-config/zipball/$updateConfig && \
       unzip default-config.zip  && \
       cp -r Emergent-Civilization-default-server-config-$newHash/* . && \
       cp -r Emergent-Civilization-default-server-config-$newHash/.[^.]* . 2>/dev/null || true && \ 
