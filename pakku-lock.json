@@ -6852,6 +6852,73 @@
             ]
         },
         {
+            "pakku_id": "3wchaIpspWEfqtNV",
+            "pakku_links": [
+                "bDQUB8zljVVWf9mE"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "game-stages",
+                "modrinth": "game-stages"
+            },
+            "name": {
+                "curseforge": "Game Stages",
+                "modrinth": "Game Stages"
+            },
+            "id": {
+                "curseforge": "268655",
+                "modrinth": "iAlZk5aS"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "GameStages-Forge-1.20.1-15.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5790/361/GameStages-Forge-1.20.1-15.0.2.jar",
+                    "id": "5790361",
+                    "parent_id": "268655",
+                    "hashes": {
+                        "sha1": "e17306593188b9fd16170a9dc47a8e0051a9f1e7",
+                        "md5": "bddb7414b6e27fcb60e20f9eedea4333"
+                    },
+                    "required_dependencies": [
+                        "228525"
+                    ],
+                    "size": 68468,
+                    "date_published": "2024-10-07T02:36:50.227Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "GameStages-Forge-1.20.1-15.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/iAlZk5aS/versions/El97XbC9/GameStages-Forge-1.20.1-15.0.2.jar",
+                    "id": "El97XbC9",
+                    "parent_id": "iAlZk5aS",
+                    "hashes": {
+                        "sha512": "3ae3a8b7d7f505a422b06eca4f2f9ed6233c646a53d8c004a27c373c145ea38979ad82d2169b39ba0219668e0c3cff7c908c018cd4c64ea0af03c0d48ee513d6",
+                        "sha1": "e17306593188b9fd16170a9dc47a8e0051a9f1e7"
+                    },
+                    "required_dependencies": [],
+                    "size": 68468,
+                    "date_published": "2024-10-07T02:37:08.088768Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pB7ARGecP03UXpd6",
             "type": "MOD",
             "side": "BOTH",
@@ -7964,6 +8031,67 @@
                     "required_dependencies": [],
                     "size": 74491,
                     "date_published": "2024-05-04T18:03:08.340558Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8DuLS1HBBmNxanH3",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "item-stages",
+                "modrinth": "item-stages"
+            },
+            "name": {
+                "curseforge": "Item Stages",
+                "modrinth": "Item Stages"
+            },
+            "id": {
+                "curseforge": "280316",
+                "modrinth": "1WAfmxKu"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ItemStages-Forge-1.20.1-8.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5214/94/ItemStages-Forge-1.20.1-8.0.3.jar",
+                    "id": "5214094",
+                    "parent_id": "280316",
+                    "hashes": {
+                        "sha1": "806bfd896cb9af31016d26566406beb5859ff94b",
+                        "md5": "ed710102a7c62a28e6d3f14657c9a396"
+                    },
+                    "required_dependencies": [],
+                    "size": 32124,
+                    "date_published": "2024-03-26T23:44:24.260Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ItemStages-Forge-1.20.1-8.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1WAfmxKu/versions/sQ1ri9ut/ItemStages-Forge-1.20.1-8.0.3.jar",
+                    "id": "sQ1ri9ut",
+                    "parent_id": "1WAfmxKu",
+                    "hashes": {
+                        "sha512": "ff70c2688c59c8f553df7a79d485b3943b847c6ccef4c0732a9a52301db75be1e6208737b7851d86d8867fcb086c6c67c2cd621009f09e771c39cdd42e146c90",
+                        "sha1": "806bfd896cb9af31016d26566406beb5859ff94b"
+                    },
+                    "required_dependencies": [],
+                    "size": 32124,
+                    "date_published": "2024-03-26T23:44:31.548631Z"
                 }
             ]
         },
@@ -11089,6 +11217,74 @@
                     "required_dependencies": [],
                     "size": 713454,
                     "date_published": "2024-09-09T08:07:43.540Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Jvsx3ko8seYtfZWz",
+            "pakku_links": [
+                "3wchaIpspWEfqtNV"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "recipe-stages",
+                "modrinth": "recipe-stages"
+            },
+            "name": {
+                "curseforge": "Recipe Stages",
+                "modrinth": "Recipe Stages"
+            },
+            "id": {
+                "curseforge": "280554",
+                "modrinth": "qXkLFB0L"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "RecipeStages-8.0.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5173/574/RecipeStages-8.0.0.2.jar",
+                    "id": "5173574",
+                    "parent_id": "280554",
+                    "hashes": {
+                        "sha1": "f021063c46a2ce0245c1e42c4708c9cf59e39e21",
+                        "md5": "251f7488befbde2bc8e48950e9b2ae8e"
+                    },
+                    "required_dependencies": [
+                        "268655"
+                    ],
+                    "size": 50691,
+                    "date_published": "2024-03-11T05:28:56.897Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "RecipeStages-8.0.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qXkLFB0L/versions/iZsXzfY9/RecipeStages-8.0.0.2.jar",
+                    "id": "iZsXzfY9",
+                    "parent_id": "qXkLFB0L",
+                    "hashes": {
+                        "sha512": "a01ad6353b94c0cb84cce7683013def602b99f29c2fd4923bf10fc3ce9d7309fa212cc84c3489a775e5517fb345c372013f7b18dce18ea45359bb2bd92b818cd",
+                        "sha1": "f021063c46a2ce0245c1e42c4708c9cf59e39e21"
+                    },
+                    "required_dependencies": [
+                        "iAlZk5aS"
+                    ],
+                    "size": 50691,
+                    "date_published": "2024-03-11T05:28:54.476707Z"
                 }
             ]
         },
