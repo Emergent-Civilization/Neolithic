@@ -2147,67 +2147,6 @@
             ]
         },
         {
-            "pakku_id": "PIksUt1kgORNNFon",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "canary",
-                "modrinth": "canary"
-            },
-            "name": {
-                "curseforge": "Canary",
-                "modrinth": "Canary"
-            },
-            "id": {
-                "curseforge": "665658",
-                "modrinth": "qa2H4BS9"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "canary-mc1.20.1-0.3.3.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5089/991/canary-mc1.20.1-0.3.3.jar",
-                    "id": "5089991",
-                    "parent_id": "665658",
-                    "hashes": {
-                        "sha1": "898abd9e337ef1c677ce93f5589497a09c7e9850",
-                        "md5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1"
-                    },
-                    "required_dependencies": [],
-                    "size": 594191,
-                    "date_published": "2024-02-08T15:51:28.977Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "canary-mc1.20.1-0.3.3.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-0.3.3.jar",
-                    "id": "lauzXB0n",
-                    "parent_id": "qa2H4BS9",
-                    "hashes": {
-                        "sha512": "38f0bec7967f9d354e46dacdbe7d284ef823270dc737a7388adde157c45a025e53d77e04a00a582900666b85402c461bee4b80345fc7f03edb5c2b96708442bd",
-                        "sha1": "898abd9e337ef1c677ce93f5589497a09c7e9850"
-                    },
-                    "required_dependencies": [],
-                    "size": 594191,
-                    "date_published": "2024-02-08T15:53:14.088443Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "A31UAepqnKniFZnm",
             "pakku_links": [
                 "fR2my61zK1ySP67C"
