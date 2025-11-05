@@ -1,51 +1,39 @@
 #!/bin/bash
+# Forge requires a configured set of both JVM and program arguments.
+# Add custom JVM arguments to the user_jvm_args.txt
+# Add custom program arguments {such as nogui} to this file in the next line before the "$@" or
+#  pass them to this script directly
 
+currentHash=$(cat default-config.hash 2>/dev/null || echo "")
+API_URL="https://api.github.com/repos/Emergent-Civilization/Neolithic/branches/dev"
+newHash=$(curl -Ls "$API_URL" | grep -o '"sha": "[^"]*"' | head -1 | cut -d\" -f4)
 
-
-# ideas for future, for now i just got hash checks done
-# args - default_config_branch, civ_core_branch, spec_branch
-# for each of them, we can have presets, so rather than default-config-base
-# we can just put in base and it replaces it as it needs
-# but if it is null or some other thing that means nothing, it will use whatever the default is
-# most of this is kinda of done, but also kinda of not
-
-updateConfig=${1:-"dev"}
-
-if [ $updateConfig -eq 1 ]; then
-  updateConfig="main"
+if [ "$currentHash" != "$newHash" ]; then
+    rm -rf Emergent-Civilization-Neolithic-* default-config.zip
+    curl -L -o Neolithic.zip https://api.github.com/repos/Emergent-Civilization/Neolithic/zipball/dev && \
+    jar xf Neolithic.zip && \
+    EXTRACTED_DIR=$(find . -maxdepth 1 -type d -name "Emergent-Civilization-Neolithic-*" | head -n 1) && \
+    cp -r "$EXTRACTED_DIR"/* . && \
+    cp -r "$EXTRACTED_DIR"/.[^.]* . 2>/dev/null || true && \
+    rm -rf "$EXTRACTED_DIR" Neolithic.zip Neolithic.hash && \
+    echo "$newHash" > Neolithic.hash
 fi
 
-if [ "$updateConfig" != "null" ]; then
-  branchData=$(curl -Ls https://api.github.com/repos/Emergent-Civilization/Neolithic/branches/$updateConfig)
+#Uncomment the next line to sync mods from a pakku server-pack export
 
-  branchExistsMsg=$(echo $branchData | jq -r .message)
-  if [ "$branchExistsMsg" == "Branch not found" ]; then
-    echo "Neolithic branch '$updateConfig' does not exist"
-    echo "not updating config"
-  else
-    echo "Updating Config"
-    if [ -e default-config.hash ]; then
-      currentHash=$(cat default-config.hash)
-    else
-      currentHash=""
-    fi
-    echo "Current Hash : $currentHash"
-    newHash=$(curl -Ls https://api.github.com/repos/Emergent-Civilization/Neolithic/branches/$updateConfig | jq -r .commit.sha)
-    echo "New Hash     : $newHash"
-    if [ "$currentHash" != "$newHash" ]; then
-      echo "Hashes different, downloading most recent commit on branch $updateConfig"
-      rm -rf Emergent-Civilization-default-server-config-$newHash default-config.zip
-      curl -L -o default-config.zip https://api.github.com/repos/Emergent-Civilization/default-server-config/zipball/$updateConfig && \
-      unzip default-config.zip  && \
-      cp -r Emergent-Civilization-default-server-config-$newHash/* . && \
-      cp -r Emergent-Civilization-default-server-config-$newHash/.[^.]* . 2>/dev/null || true && \ 
-      rm -rf Emergent-Civilization-default-server-config-$newHash default-config.zip default-config.hash
-      echo $newHash > default-config.hash
-    else
-      echo "Hashes same, doing nothing"
-    fi
-  fi
+#java -Xmx5g -jar pakku.jar export 
+
+# Local Server-Pack Extraction (Condensed Logic)
+SERVERPACK_ZIP="/home/container/build/serverpack/TerraFirmaGreg-Modern-DEV.zip"
+TEMP_DIR="./.tmp_mod_extract_$$" && mkdir -p "$TEMP_DIR" 2>/dev/null
+if [ -f "$SERVERPACK_ZIP" ] && [ -d "$TEMP_DIR" ]; then
+    (cd "$TEMP_DIR" && jar xf "$SERVERPACK_ZIP") && \
+    SOURCE_MODS_PATH=$(find "$TEMP_DIR" -maxdepth 2 -type d -name "mods" | head -n 1) && \
+    rm -rf mods && \
+    cp -r "$SOURCE_MODS_PATH" . && \
+    rm -rf "$TEMP_DIR"
 fi
 
 
-java -Xms16G -Xmx16G -XX:+UseZGC -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar
+java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.4.10/unix_args.txt "$@"
+
