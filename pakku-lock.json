@@ -3411,6 +3411,67 @@
             ]
         },
         {
+            "pakku_id": "zKH8VGOGp9KB4Yks",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "crafttweaker",
+                "modrinth": "crafttweaker"
+            },
+            "name": {
+                "curseforge": "CraftTweaker",
+                "modrinth": "CraftTweaker"
+            },
+            "id": {
+                "curseforge": "239197",
+                "modrinth": "Xg35A4rS"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CraftTweaker-forge-1.20.1-14.0.59.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6914/10/CraftTweaker-forge-1.20.1-14.0.59.jar",
+                    "id": "6914010",
+                    "parent_id": "239197",
+                    "hashes": {
+                        "sha1": "1883e15dca2f3d2d36ab452f489b9c3534383684",
+                        "md5": "2e2577ead9fee83f2260008d5c98babb"
+                    },
+                    "required_dependencies": [],
+                    "size": 3269064,
+                    "date_published": "2025-08-22T06:40:02.983Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "CraftTweaker-forge-1.20.1-14.0.59.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Xg35A4rS/versions/EKnWm7CI/CraftTweaker-forge-1.20.1-14.0.59.jar",
+                    "id": "EKnWm7CI",
+                    "parent_id": "Xg35A4rS",
+                    "hashes": {
+                        "sha512": "6265ff4b290889b4950fa4c44823ccaaaa568aa511b5ad00efff190b44c665b15407846809154a19070f1c75fb894837c8f7a385a18d22a5e9ee64800054f3c6",
+                        "sha1": "6f223f2867a12cee2fb9d0951123826456a8b464"
+                    },
+                    "required_dependencies": [],
+                    "size": 3269064,
+                    "date_published": "2025-08-22T06:40:19.206688Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iVxwBkSQPuiTe33a",
             "type": "MOD",
             "side": "BOTH",
