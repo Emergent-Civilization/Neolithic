@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "neolithic"
+	group: ""
+	id: "6E329164F7D830E8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "052CD6DBD1DACAC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24097279759967E5"
+				table_id: 7009586107670031112L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5EF70E9AB6630FBC"
+				title: "Start Here"
+				type: "checkmark"
+			}]
+			title: "Beginning"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["052CD6DBD1DACAC6"]
+			id: "32F0FB30E15CE950"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FD224E249722CAA"
+				table_id: 4584383221299994758L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0968A73FCE3D08F0"
+				stage: "stone_tools"
+				type: "gamestage"
+			}]
+			title: "Artisan"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["052CD6DBD1DACAC6"]
+			id: "308A903609D19B55"
+			invisible: true
+			tasks: [{
+				id: "7B50179D00231926"
+				stage: "firestarter"
+				type: "gamestage"
+			}]
+			title: "Cook"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["052CD6DBD1DACAC6"]
+			id: "13259E9CCDFB44EA"
+			tasks: [{
+				id: "622CD88095A920F4"
+				stage: "earlyprotection"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32F0FB30E15CE950"]
+			id: "2F55720AE8D7E39C"
+			tasks: [{
+				id: "5AAAD4804F73DB9A"
+				stage: "tool_maker"
+				title: "Tool Maker"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32F0FB30E15CE950"]
+			id: "154688A49C8A5739"
+			tasks: [{
+				id: "4CB6F465A52AA79E"
+				stage: "block_maker"
+				type: "gamestage"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32F0FB30E15CE950"]
+			id: "5F69CD32E6B330C3"
+			tasks: [{
+				id: "22EED7DEB5F3706B"
+				stage: "miner"
+				type: "gamestage"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+	]
+	title: "Neolithic"
+}

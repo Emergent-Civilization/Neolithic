@@ -1,0 +1,26 @@
+{
+	id: "61470D6D322F6B08"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "stone_tools"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "firestarter"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "earlyprotection"
+			type: "gamestage"
+		}
+	]
+	title: "Beginning"
+}

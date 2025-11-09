@@ -1,0 +1,26 @@
+{
+	id: "3F9F00402BD8E086"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "tool_maker"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "block_maker"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "miner"
+			type: "gamestage"
+		}
+	]
+	title: "Artisan"
+}
